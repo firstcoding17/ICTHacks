@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cam">
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:text="A형 일 확률"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/AB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AB형 일 확률"
+        android:layout_below="@id/O"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B형 일 확률"
+        android:layout_below="@id/AB"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/O"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A"
+        android:text="O형 일 확률"
+        android:textSize="30dp"
+        />
+
+
+
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        />
+
+
+</RelativeLayout>
